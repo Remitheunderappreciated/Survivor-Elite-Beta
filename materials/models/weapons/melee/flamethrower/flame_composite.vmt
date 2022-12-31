@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$baseTexture "models\weapons\melee\flamethrower\flame_composite"
+	$bumpmap "models\weapons\melee\flamethrower\flame_composite_normal"
+	$phong 1
+	$phongboost .2
+	//$phongexponent 20
+	$phongexponenttexture "models\weapons\melee\flamethrower\flame_composite_exp"
+	$phongfresnelranges "[1 2 30]"
+	$basemapalphaphongmask 1
+	$surfaceprop "canister"
+	
+	$envmap env_cubemap
+	$envmaptint "[0.1 0.1 0.1]"
+	$envmapcontrast 0.5
+	$basealphaenvmapmask 1
+}
