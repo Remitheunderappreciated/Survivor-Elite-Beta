@@ -1,0 +1,1246 @@
+Population
+{
+	//------------------------------------------------------------------------
+	// Areas are defined in the map or the nav file.  Right now we're using
+	// nav place names.  If no place name is used, we look for 'default'.
+	// Populations are lists of models, with percentages adding up to 100.
+	// Model names should be specified without the .mdl extension, and
+	// without the directory name (this assumes all infected models are in
+	// models/infected).
+
+	
+
+	//------------------------------------------------------------------------
+	default
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+
+	defaultcemetery
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5			5
+	}
+
+
+
+	defaultmilltown
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+	defaultmilltown_mob
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+
+	defaultsugarmill
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+	defaultsugarmill_mob
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+	defaultmilltown_rain
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+	defaultmilltown_rain_mob
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+
+	defaultsugarmill_rain
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+	defaultsugarmill_rain_mob
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+	
+	// C3 
+	//------------------------------------------------------------------------
+	defaultswamp
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+		deepswamp
+		{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		}
+	
+
+	//------------------------------------------------------------------------
+	test_common_male_suit
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+
+	//Urban Populations and sub-populations
+	//------------------------------------------------------------------------
+	defaulturban
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+		//------------------------------------------------------------------------
+		police
+		{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		}
+
+		//------------------------------------------------------------------------
+		maintenance
+		{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		}
+
+		//------------------------------------------------------------------------
+		hospitalgrounds
+		{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		}
+
+
+
+	//------------------------------------------------------------------------
+	hospital
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+		//------------------------------------------------------------------------
+		hospitalconstruction
+		{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		}
+
+
+
+	//------------------------------------------------------------------------
+	airport
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+	
+		//------------------------------------------------------------------------
+		airportfinale
+		{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		}
+	
+
+
+
+	//Rural Populations and sub-populations
+	//------------------------------------------------------------------------
+	defaultrural
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+
+	//Adding CEDA for Campaign 5
+	//------------------------------------------------------------------------
+	crescentcity
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+		busstation
+		{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		}
+
+
+	//Minimizing the types for memory
+	//------------------------------------------------------------------------
+	frenchquarter
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+		ceda
+		{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		}
+
+	//Adding CEDA guys to Campaign 1
+	//------------------------------------------------------------------------
+	c1streets
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+
+	//Adding Clown guys to Campaign 2
+	//------------------------------------------------------------------------
+	whisperingoaks
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+	//Minimizing the types for memory in c3m1
+	//------------------------------------------------------------------------
+	gatorpark
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+
+	//------------------------------------------------------------------------
+	// random zombie type spawned at the church after the mini-finale
+	church
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+
+
+//------------------------------------------------------------------------
+//------------------------------------------------------------------------
+//		CAMPAIGN 6
+//------------------------------------------------------------------------
+//------------------------------------------------------------------------
+
+	riverbank
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+		riverbank_police
+		{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		}
+
+		riverbank_wedding
+		{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		}
+
+
+	redlight
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		
+	}
+
+	redlight_bikers
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+	port
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+		
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+
+
+//------------------------------------------------------------------------
+
+	zoo
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+	smoker
+	{
+		smoker	100
+	}
+
+	hunter
+	{
+		hunter	100
+	}
+
+	boomer
+	{
+		boomer	100
+	}
+
+	tank
+	{
+		tank	100
+	}
+
+	witch
+	{
+		witch	100
+	}
+
+	witch_bride
+	{
+		witch_bride 100
+	}
+	
+	jockey
+	{
+		jockey	100
+	}
+
+	charger
+	{
+		charger	100
+	}
+	spitter
+	{
+		spitter	100
+	}
+
+	new_special
+	{
+		jockey	33
+		charger	33
+		spitter	34
+	}
+
+	//------------------------------------------------------------------------
+	// River Populations and sub-populations
+	//------------------------------------------------------------------------
+	river
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+	
+	// tank spawned trapped in train car in the docks map
+	river_docks_trap
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+	riverintro
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+	riverarena
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+	
+	riveratrium
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+	
+	riverfreighter
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+
+	riverport
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+	
+	//------------------------------------------------------------------------
+	hospital_test
+	{
+		common_male_tshirt_cargos		5
+		common_male_tankTop_jeans		5
+		common_male_dressShirt_jeans		5
+		common_female_tankTop_jeans		5
+		common_female_tshirt_skirt		5
+		common_male_ceda	 		5
+		common_male_mud				5
+		common_shadertest			5
+		common_male_riot			5
+		common_male_polo_jeans			5
+		common_male_roadcrew			5
+		common_female_tshirt_skirt_swamp 	5
+		common_male_tshirt_cargos_swamp 	5
+		common_male_tanktop_jeans_swamp		5
+		common_male_fallen_survivor		5
+		common_male_tankTop_overalls		5
+		common_male_tanktop_jeans_swamp		5
+		common_male_formal			5
+		common_female_formal			5
+		common_male_biker			5
+	}
+	
+}
