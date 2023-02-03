@@ -100,9 +100,9 @@ static const char sWeaponAttrNames[PLUGIN_WEAPON_MAX_ATTRS][MAX_ATTRS_NAME_LENGT
 	"Gain range",
 	"Reload duration",
 	"Tank damage multiplier"
-	"Weapon Type"
-	"Addon Attachment"
-	"Response Rules Name"
+	"Weapon type"
+	"Addon attachment"
+	"Response rules name"
 };
 
 static const char sWeaponAttrShortName[PLUGIN_WEAPON_MAX_ATTRS][MAX_ATTRS_NAME_LENGTH] =
