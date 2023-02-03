@@ -92,13 +92,13 @@ Carni fairgrounds Alarm door
         ; --- alarm door event
         "OnTrigger" "Level_alarm_sound,PlaySound,,0,-1"
         "OnTrigger" "@director,RunScriptCode,ZSpawn,1,-1"
-	  "OnTrigger" "@director,RunScriptCode,Director.PlayMegaMobWarningSounds,1,-1"
-	  "OnTrigger" "@director,ForcePanicEvent,1,-1"
+	"OnTrigger" "@director,RunScriptCode,Director.PlayMegaMobWarningSounds,1,-1"
+	"OnTrigger" "@director,ForcePanicEvent,1,-1"
         "OnTrigger" "Level_alarm_sound,StopSound,20,-1"
         "OnTrigger" "Level_alarmdoor_proxy,Kill,0,-1
         "OnTrigger" "Level_alarm_light,ShowSprite,0,-1
         "OnTrigger" "Level_alarm_light,HideSprite,20,-1
         "OnTrigger" "Level_alarmlight,skin,1,0,-1
-	  "OnTrigger" "Level_alarmlight,skin,0,20,-1
+	"OnTrigger" "Level_alarmlight,skin,0,20,-1
     }
 }
