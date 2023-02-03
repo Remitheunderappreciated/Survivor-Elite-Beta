@@ -1,0 +1,104 @@
+Carni fairgrounds Alarm door
+----------------------------------
+
+
+; --- alarm door light 1
+{
+	"classname" "prop_dynamic"
+	"origin" "784 -1442 121"
+	"angles" "90 0 0"
+	"model" "models/props/de_nuke/emergency_lighta.mdl"
+	"name" "Level_alarmlight
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- metal door 1
+{
+	"classname" "prop_door_rotating"
+	"origin" "763 -1468 0"
+	"angles" "0 0 0"
+	"model" "models/props_downtown/metal_door_112.mdl"
+	"name"  "Level_alarmdoor"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- metal door 1 frame
+{
+	"classname" "prop_dynamic"
+	"origin" "775 -1468 -15"
+	"angles" "0 0 0"
+	"model" "models/props_downtown/window_interior_frame02.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- warning sign 1
+{
+	"classname" "prop_dynamic"
+	"origin" "763 -1468 62"
+	"angles" "0 0 0"
+	"model" "models/props_doors/emergency_exit_sign.mdl"
+	"parentname" "Level_alarmdoor"
+	"name" "Level_alarmdoor_sign"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- mirror 1
+{
+	"classname" "prop_dynamic"
+	"origin" "764 -1415 42"
+	"angles" "0 0 0"
+	"model" "models/props_interiors/medicinecabinet01_mirror.mdl"
+	"parentname" "Level_alarmdoor"
+	"name" "Level_alarmdoor_sign"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- alarm proxy 1
+{
+	"classname" "info_game_event_proxy"
+	"origin" "781 -1441 88"
+	"event_name" "explain_emergency_door"
+	"range" "50"
+	"spawnflags" "1"
+	"targetname" "Level_alarmdoor_proxy"
+	
+}
+; --- logic relay 1
+{
+	"classname" "logic_relay"
+	"origin" "781 -1441 88"
+	"spawnflags" "1"
+	"targetname" "Level_alarmdoor_relay"
+}
+; --- ambient 1
+{
+	"classname" "ambient_generic"
+	"origin" "781 -1441 121"
+	"health" "10"
+	"message" "Objects.emergency_alarm_loop"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "17"
+	"targetname" "Level_alarm_sound"	
+}
+{
+    match:
+    {
+        "targetname" "Level_alarmdoor_relay"
+    }
+    insert:
+    {
+        ; --- alarm door event
+        "OnTrigger" "Level_alarm_sound,PlaySound,,0,-1"
+        "OnTrigger" "@director,RunScriptCode,ZSpawn,1,-1"
+	  "OnTrigger" "@director,RunScriptCode,Director.PlayMegaMobWarningSounds,1,-1"
+	  "OnTrigger" "@director,ForcePanicEvent,1,-1"
+        "OnTrigger" "Level_alarm_sound,StopSound,20,-1"
+        "OnTrigger" "Level_alarmdoor_proxy,Kill,0,-1
+        "OnTrigger" "Level_alarm_light,ShowSprite,0,-1
+        "OnTrigger" "Level_alarm_light,HideSprite,20,-1
+        "OnTrigger" "Level_alarmlight,skin,1,0,-1
+	  "OnTrigger" "Level_alarmlight,skin,0,20,-1
+    }
+}
