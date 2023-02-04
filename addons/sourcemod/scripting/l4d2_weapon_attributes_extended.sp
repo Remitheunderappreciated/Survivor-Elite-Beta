@@ -69,7 +69,7 @@ static const L4D2FloatWeaponAttributes iFloatWeaponAttributes[] =
 	L4D2FWA_WeaponType
 	L4D2FWA_AddonAttachment
 	L4D2FWA_ResponseRulesName
-	L4D2FWA_Damageflags
+	L4D2FWA_DamageFlags
 };
 
 static const char sWeaponAttrNames[PLUGIN_WEAPON_MAX_ATTRS][MAX_ATTRS_NAME_LENGTH] = 
