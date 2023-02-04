@@ -69,6 +69,7 @@ static const L4D2FloatWeaponAttributes iFloatWeaponAttributes[] =
 	L4D2FWA_WeaponType
 	L4D2FWA_AddonAttachment
 	L4D2FWA_ResponseRulesName
+	L4D2FWA_Damageflags
 };
 
 static const char sWeaponAttrNames[PLUGIN_WEAPON_MAX_ATTRS][MAX_ATTRS_NAME_LENGTH] = 
@@ -103,6 +104,7 @@ static const char sWeaponAttrNames[PLUGIN_WEAPON_MAX_ATTRS][MAX_ATTRS_NAME_LENGT
 	"Weapon type"
 	"Addon attachment"
 	"Response rules name"
+	"Damage flags"
 };
 
 static const char sWeaponAttrShortName[PLUGIN_WEAPON_MAX_ATTRS][MAX_ATTRS_NAME_LENGTH] =
@@ -137,6 +139,7 @@ static const char sWeaponAttrShortName[PLUGIN_WEAPON_MAX_ATTRS][MAX_ATTRS_NAME_L
 	"weapontype"
 	"addonattachment"
 	"resrulesname"
+	"damageflags"
 };
 
 ConVar
