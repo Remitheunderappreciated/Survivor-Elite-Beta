@@ -1,0 +1,1 @@
+This will eventually become an organized and labeled index for all item, weapon, and events for every chapter. These cfg files do not belong in you files, they are a by product of using the stripper_dump feature. I hope this information can be useful to you in the future. 
