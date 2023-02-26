@@ -64,7 +64,8 @@ sm_add_map_transition c8m4_interior c8m5_rooftop
 
 
 sm_add_map_transition c9m1_alleys c8m2_subway
-sm_add_map_transition c8m2_subway c11m2_offices
+sm_add_map_transition c8m2_subway c8m3_sewers
+sm_add_map_transition c8m3_sewers c11m2_offices
 sm_add_map_transition c11m2_offices c9m2_lots
 
 
