@@ -1,0 +1,261 @@
+sm_weapon melee bucket 6
+
+sm_weapon chainsaw tier 0
+sm_weapon chainsaw bucket 6
+
+sm_weapon smg tier 0
+sm_weapon smg bucket 1
+
+sm_weapon melee weapontype pistol
+sm_weapon melee playeranimationextension pistol
+sm_weapon melee canequipwithshield 1
+sm_weapon melee bucket_position 1
+sm_weapon melee itemflags 0
+
+sm_weapon baseball_bat force_dir 0 0 600
+sm_weapon baseball_bat weapon_idle_time 1.6
+
+sm_weapon cricket_bat force_dir 0 0 600
+sm_weapon cricket_bat weapon_idle_time 1.6
+
+sm_weapon crowbar damage_flags 4;128
+
+sm_weapon knife damage_flags 4
+sm_weapon knife activity_idle act_idle_fryingpan
+sm_weapon knife activity_walk act_walk_fryingpan
+sm_weapon knife activity_run act_run_fryingpan
+sm_weapon knife activity_crouchidle act_crouchidle_fryingpan
+sm_weapon knife activity_crouchwalk act_run_crouch_fryingpan
+sm_weapon knife activity_crouchrun act_run_crouch_fryingpan
+sm_weapon knife activity_idleinjured act_idle_injured_fryingpan
+sm_weapon knife activity_walkinjured act_walk_injured_fryingpan
+sm_weapon knife activity_runinjured act_run_injured_fryingpan
+sm_weapon knife activity_idlecalm act_idle_calm_fryingpan
+sm_weapon knife activity_walkcalm act_walk_fryingpan
+sm_weapon knife activity_runcalm act_run_fryingpan
+sm_weapon knife activity_pulled act_terror_pulled_run_rifle
+sm_weapon knife activity_jump act_jump_fryingpan
+sm_weapon knife activity_attackprimary act_vm_primaryattack
+sm_weapon knife activity_attacksecondary act_shoot_secondary_fryingpan
+sm_weapon knife primaryattacks stab1
+{
+		startdir e
+		enddir w
+		duration 1.1
+		starttime 0.05
+		endtime 0.35
+		activity act_vm_primaryattack
+		player_activity act_shoot_e2w_axe
+		player_activity_idle act_shoot_e2w_idle_axe
+		force_dir 20 10 0
+}
+sm_weapon knife primaryattacks slash1
+{
+		startdir w
+		enddir e
+		duration 1.1
+		starttime 0.05
+		endtime 0.35
+		activity act_vm_hitright
+		player_activity act_shoot_w2e_axe
+		player_activity_idle act_shoot_w2e_idle_axe
+		force_dir 8 -4 0
+}
+sm_weapon knife secondaryattacks elbow1
+{
+		startdir w
+		enddir e
+		duration .7
+		starttime 0.08
+		endtime 0.4
+		activity act_vm_secondaryattack
+		player_activity act_shoot_secondary_axe
+		player_activity_idle act_shoot_secondary_axe
+}
+
+sm_weapon pitchfork damage_flags 4;128
+
+sm_weapon shovel damage_flags 4;128
+sm_weapon shovel decapitates 1
+sm_weapon shovel secondaryattacks shove1
+{
+		startdir e
+		enddir w
+		duration .73
+		starttime 0.1
+		endtime 0.26
+		activity act_vm_secondaryattack
+		player_activity act_shoot_secondary_axe
+		player_activity_idle act_shoot_secondary_axe
+}	
+		
+sm_weapon tonfa damage_flags 128
+
+sm_weapon chainsaw weapontype pistol
+sm_weapon chainsaw playeranimationextension pistol
+sm_weapon chainsaw bucket_position 1
+sm_weapon chainsaw item_flags 0
+
+sm_weapon pistol dualreloadduration 1.75
+sm_weapon pistol deployduration 0.3
+sm_weapon pistol dualdeployduration 0.5
+
+sm_weapon smg addonattachment pistol
+sm_weapon smg responserulesname pistol
+sm_weapon smg canequipwithshield 1
+sm_weapon smg weapontype pistol
+sm_weapon smg bucket_position 0
+sm_weapon smg primary_ammo ammo_type_pistol
+sm_weapon pistol_magnum deployduration 0.5
+
+sm_weapon smg_silenced noisefactor 0
+
+sm_weapon hunting_rifle accuracydivisor -1
+sm_weapon hunting_rifle accuracyoffset 0
+sm_weapon hunting_rifle maxincaccuracy 0
+
+sm_weapon sniper_military accuracydivisor -1
+sm_weapon sniper_military accuracyoffset 0
+sm_weapon sniper_military maxincaccuracy 0
+sm_weapon sniper_military primary_ammo ammo_type_huntingrifle
+
+sm_weapon sniper_scout accuracydivisor -1
+sm_weapon sniper_scout accuracyoffset 0
+sm_weapon sniper_scout maxincaccuracy 0
+sm_weapon sniper_scout primary_ammo ammo_type_shotgun
+
+sm_weapon sniper_awp accuracydivisor -1
+sm_weapon sniper_awp accuracyoffset 0
+sm_weapon sniper_awp maxincaccuracy 0
+
+sm_weapon molotov weapontype pistol
+sm_weapon pipe_bomb weapontype pistol
+sm_weapon vomitjar weapontype pistol
+
+sm_weapon cola_bottles weapontype healing
+sm_weapon cola_bottles playeranimationextension gren
+sm_weapon cola_bottles responserulesname adrenaline
+sm_weapon cola_bottles displayname #l4d_weapon_adrenaline
+sm_weapon cola_bottles displaynameallcaps #l4d_weapon_adrenaline_caps
+sm_weapon cola_bottles canequipwithshield 1
+sm_weapon cola_bottles addonattachement medkit
+sm_weapon cola_bottles printname _ Adrenaline _
+sm_weapon cola_bottles bucket_position 1
+sm_weapon cola_bottles clip_size -1
+sm_weapon cola_bottles default_clip 1
+sm_weapon cola_bottles primary_ammo ammo_type_painpills
+sm_weapon cola_bottles item_flag 0
+sm_weapon cola_bottles item_flag_noammopickups 1
+sm_weapon cola_bottles loadoutslots 0
+
+sm_weapon fireworkscrate weapontype healing
+sm_weapon fireworkscrate playeranimationextension gren
+sm_weapon fireworkscrate responserulesname adrenaline
+sm_weapon fireworkscrate displayname #l4d_weapon_adrenaline
+sm_weapon fireworkscrate displaynameallcaps #l4d_weapon_adrenaline_caps
+sm_weapon fireworkscrate canequipwithshield 1
+sm_weapon fireworkscrate addonattachement medkit
+sm_weapon fireworkscrate printname _ Adrenaline _
+sm_weapon fireworkscrate bucket_position 0
+sm_weapon fireworkscrate clip_size -1
+sm_weapon fireworkscrate default_clip 1
+sm_weapon fireworkscrate primary_ammo ammo_type_pipebomb
+sm_weapon fireworkscrate item_flag 0
+sm_weapon fireworkscrate item_flag_noammopickups 1
+sm_weapon fireworkscrate loadoutslots 0
+
+sm_weapon gnome weapontype healing
+sm_weapon gnome playeranimationextension gren
+sm_weapon gnome responserulesname adrenaline
+sm_weapon gnome displayname #l4d_weapon_adrenaline
+sm_weapon gnome displaynameallcaps #l4d_weapon_adrenaline_caps
+sm_weapon gnome canequipwithshield 1
+sm_weapon gnome addonattachement medkit
+sm_weapon gnome printname _ Adrenaline _
+sm_weapon gnome bucket_position 0
+sm_weapon gnome clip_size -1
+sm_weapon gnome default_clip 1
+sm_weapon gnome primary_ammo ammo_type_painpills
+sm_weapon gnome item_flag 0
+sm_weapon gnome item_flag_noammopickups 1
+sm_weapon gnome loadoutslots 0
+
+sm_weapon gascan weapontype healing
+sm_weapon gascan playeranimationextension gren
+sm_weapon gascan responserulesname adrenaline
+sm_weapon gascan displayname #l4d_weapon_adrenaline
+sm_weapon gascan displaynameallcaps #l4d_weapon_adrenaline_caps
+sm_weapon gascan canequipwithshield 1
+sm_weapon gascan addonattachement medkit
+sm_weapon gascan printname _ Adrenaline _
+sm_weapon gascan bucket_position 0
+sm_weapon gascan clip_size -1
+sm_weapon gascan default_clip 1
+sm_weapon gascan primary_ammo ammo_type_molotov
+sm_weapon gascan item_flag 0
+sm_weapon gascan item_flag_noammopickups 1
+sm_weapon gascan loadoutslots 0
+
+sm_weapon oxygentank weapontype healing
+sm_weapon oxygentank playeranimationextension gren
+sm_weapon oxygentank responserulesname adrenaline
+sm_weapon oxygentank displayname #l4d_weapon_adrenaline
+sm_weapon oxygentank displaynameallcaps #l4d_weapon_adrenaline_caps
+sm_weapon oxygentank canequipwithshield 1
+sm_weapon oxygentank addonattachement medkit
+sm_weapon oxygentank printname _ Adrenaline _
+sm_weapon oxygentank bucket_position 0
+sm_weapon oxygentank clip_size -1
+sm_weapon oxygentank default_clip 1
+sm_weapon oxygentank primary_ammo ammo_type_pipebomb
+sm_weapon oxygentank item_flag 0
+sm_weapon oxygentank item_flag_noammopickups 1
+sm_weapon oxygentank loadoutslots 0
+
+sm_weapon propanetank weapontype healing
+sm_weapon propanetank playeranimationextension gren
+sm_weapon propanetank responserulesname adrenaline
+sm_weapon propanetank displayname #l4d_weapon_adrenaline
+sm_weapon propanetank displaynameallcaps #l4d_weapon_adrenaline_caps
+sm_weapon propanetank canequipwithshield 1
+sm_weapon propanetank addonattachement medkit
+sm_weapon propanetank printname _ Adrenaline _
+sm_weapon propanetank bucket_position 0
+sm_weapon propanetank clip_size -1
+sm_weapon propanetank default_clip 1
+sm_weapon propanetank primary_ammo ammo_type_pipebomb
+sm_weapon propanetank item_flag 0
+sm_weapon propanetank item_flag_noammopickups 1
+sm_weapon propanetank loadoutslots 0
+
+
+
+/////////////////////////////
+// [throwables & pick ups] //
+/////////////////////////////
+
+sm_weapon molotov tier 0
+sm_weapon molotov damage 100
+
+sm_weapon pipe_bomb tier 0
+sm_weapon pipe_bomb damage 1000
+
+sm_weapon vomitjar tier 0 
+
+sm_weapon cola_bottles tier 0
+sm_weapon cola_bottles bucket 4
+
+sm_weapon fireworkscrate tier 0
+sm_weapon fireworkscrate bucket 2
+
+sm_weapon gnome tier 0
+sm_weapon gnome bucket 4
+
+sm_weapon gascan tier 0
+sm_weapon gascan bucket 2
+
+sm_weapon oxygentank tier 0
+sm_weapon oxygentank bucket 2
+
+sm_weapon propanetank tier 0
+sm_weapon propanetank bucket 2
